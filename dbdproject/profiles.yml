@@ -1,0 +1,14 @@
+user:
+  outputs:
+    default:
+      dbname: northwind
+      host: cursodbtteste.148820520419.us-east-1.redshift-serverless.amazonaws.com
+      pass: 12345678aA
+      port: 5439
+      ra3_node: true
+      retries: 3
+      schema: dbt_mrcfernandes
+      threads: 4
+      type: redshift
+      user: admin
+  target: default
